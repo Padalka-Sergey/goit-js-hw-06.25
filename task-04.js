@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      */let e=0;const n=document.querySelector('button[data-action="decrement"]'),c=document.querySelector('button[data-action="increment"]'),o=document.querySelector("#value");n.addEventListener("click",r);c.addEventListener("click",u);function r(){e-=1,t()}function u(){e+=1,t()}function t(){o.textContent=e}
+//# sourceMappingURL=task-04.js.map
