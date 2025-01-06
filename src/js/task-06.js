@@ -4,13 +4,15 @@ inputRef.addEventListener('blur', checkInput);
 inputRef.addEventListener('input', deleteClass);
 
 function checkInput(evt) {
-  if (
-    Number(inputRef.dataset.length) === Number(evt.currentTarget.value.length)
-  ) {
+  const dataLength = Number(inputRef.dataset.length);
+  const currentValueLength = Number(evt.currentTarget.value.length);
+  const currentValue = evt.currentTarget.value;
+
+  if (dataLength === currentValueLength) {
     inputRef.classList.add('valid');
     return;
   }
-  if (evt.currentTarget.value === '') {
+  if (currentValue === '') {
     inputRef.classList.remove('invalid');
     return;
   }
