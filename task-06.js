@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      */const e=document.querySelector("input");e.addEventListener("blur",i);e.addEventListener("input",n);function i(t){if(Number(e.dataset.length)===Number(t.currentTarget.value.length)){e.classList.add("valid");return}if(t.currentTarget.value===""){e.classList.remove("invalid");return}e.classList.add("invalid")}function n(){if(e.classList.contains("invalid")){e.classList.remove("invalid");return}e.classList.remove("valid")}
+//# sourceMappingURL=task-06.js.map
