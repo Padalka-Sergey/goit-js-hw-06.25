@@ -23,7 +23,8 @@
         font: inherit;
       }
     </style>
-    <script type="module" crossorigin src="/goit-js-hw-06.25/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-06.25/task-08.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-06.25/assets/modulepreload-polyfill-B5Qt9EMX.js">
     <link rel="stylesheet" crossorigin href="/goit-js-hw-06.25/assets/common-BP1ukFbT.css">
   </head>
   <body>
@@ -32,11 +33,11 @@
     <form class="login-form">
       <label>
         Email
-        <input type="email" name="email" />
+        <input type="email" name="email" autocomplete />
       </label>
       <label>
         Password
-        <input type="password" name="password" />
+        <input type="password" name="password" autocomplete />
       </label>
       <button type="submit">Login</button>
     </form>

@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      */const a=document.querySelector(".login-form");a.addEventListener("submit",l);function l(r){r.preventDefault();const e=r.target,t=e.elements.email,o=e.elements.password,n={};if(t.value===""||o.value==="")return alert("Все поля нужно заполнить!!!");n[t.name]=t.value,n[o.name]=o.value,console.log(n),e.reset()}
+//# sourceMappingURL=task-08.js.map
